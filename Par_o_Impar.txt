@@ -1,0 +1,12 @@
+Scanner sc = new Scanner(System.in);
+int EntradaA = 0;
+	
+System.out.println("----- Pedir datos -----");
+System.out.print("Introduce un numero: ");
+EntradaA=sc.nextInt();
+		*	
+if (EntradaA % 2 == 0) {
+	System.out.println("El numéro es par");
+} else System.out.println("El numéro no es par");
+
+sc.close();
